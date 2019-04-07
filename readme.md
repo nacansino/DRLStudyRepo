@@ -8,3 +8,6 @@ This is a repository of my resources in learning Deep Reinforcement Learning.
 ## Online Courses
 - [A Free course in Deep Reinforcement Learning from beginner to expert](https://simoninithomas.github.io/Deep_reinforcement_learning_Course/)
 
+## Repositories
+- [OpenAI](https://github.com/openai)
+
