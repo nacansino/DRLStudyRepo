@@ -1,0 +1,30 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Sat Apr 13 17:06:06 2019
+
+@author: jay
+"""
+
+from keras.models import Sequential #classifier
+from keras.layers import Conv2D #convolution
+from keras.layers import MaxPooling2D #pooling
+from keras.layers import Flatten #flattening the pooled features to a long feature vector
+from keras.layers import Dense #for hidden layers
+
+from keras.wrappers.scikit_learn import KerasClassifier
+from sklearn.model_selection import GridSearchCV #use GridSearchCV for model selection
+
+def build_classifier(optimizer,input_shape):
+    classifier.add(Conv2D(32, (3, 3), input_shape = input_shape, activation = 'relu'))
+    classifier.add(MaxPooling2D(pool_size = (2, 2)))
+    classifier.add(Conv2D(32, (3, 3), activation = 'relu'))
+    classifier.add(MaxPooling2D(pool_size = (2, 2)))
+    classifier.add(Flatten())
+    classifier.add(Dense(units = 128, activation = 'relu'))
+    classifier.add(Dense(units = 1, activation = 'sigmoid'))
+    classifier.compile(optimizer = optimizer, loss = 'binary_crossentropy', metrics = ['accuracy'])
+    return classifier
+    
+
+classifier_kfold = KerasClassifier(build_fn = build_classifier_gridsearchCV)
