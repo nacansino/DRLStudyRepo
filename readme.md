@@ -11,3 +11,5 @@ This is a repository of my resources in learning Deep Reinforcement Learning.
 ## Repositories
 - [OpenAI](https://github.com/openai)
 
+## Interesting Videos
+- [Elon Musk: Tesla Autopilot | Artificial Intelligence (AI) Podcast](https://www.youtube.com/watch?v=dEv99vxKjVI)
