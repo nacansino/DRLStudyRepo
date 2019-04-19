@@ -8,6 +8,9 @@ This is a repository of my resources in learning Deep Reinforcement Learning.
 ## Online Courses
 - [A Free course in Deep Reinforcement Learning from beginner to expert](https://simoninithomas.github.io/Deep_reinforcement_learning_Course/)
 
+## Articles
+- [Self-learning AI Agents Part I: Markov Decision Processes]https://towardsdatascience.com/self-learning-ai-agents-part-i-markov-decision-processes-baf6b8fc4c5f
+
 ## Repositories
 - [OpenAI](https://github.com/openai)
 
